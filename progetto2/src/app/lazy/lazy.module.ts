@@ -6,6 +6,7 @@ import { PrezziComponent } from './prezzi/prezzi.component';
 import { LazyRoutingModule } from './lazy-routing.module';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { RouterLazyComponent } from './router-lazy/router-lazy.component';
 
 
 
@@ -14,7 +15,8 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     ChiSiamoComponent,
     PrezziComponent,
-    LoginComponent
+    LoginComponent,
+    RouterLazyComponent
   ],
   imports: [
     CommonModule,
