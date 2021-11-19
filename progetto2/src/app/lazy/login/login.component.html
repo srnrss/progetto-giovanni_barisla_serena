@@ -6,15 +6,15 @@
             <form >
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" name="email" aria-describedby="email">
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="email">
                   </div>
                   <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" aria-describedby="password">
+                    <input type="password" class="form-control" id="password" name="password" aria-describedby="password">
                   </div>
             </form>
             <div class="button_container">
-                <button type="button" class="btn btn-success">Accedi</button>
+                <button type="button" class="btn btn-success" (click)="accesso()">Accedi</button>
               </div>
         </div>
         <div class =col>
