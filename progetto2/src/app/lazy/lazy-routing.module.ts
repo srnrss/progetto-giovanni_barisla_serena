@@ -27,7 +27,7 @@ const routes:Routes=[
                 component:PrezziComponent
             },
             {
-                path:"user",
+                path:"user/:nome",
                 component: UserComponent
             },
             {
