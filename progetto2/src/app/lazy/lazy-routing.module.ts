@@ -1,3 +1,4 @@
+import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { CommonModule } from "@angular/common"
 import { NgModule } from "@angular/core"
@@ -23,6 +24,10 @@ const routes:Routes=[
             {
                 path:'prezzi',
                 component:PrezziComponent
+            },
+            {
+                path:"user",
+                component: UserComponent
             }
         ]
     },
