@@ -19,7 +19,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params=>{
-      this.n=this.nomi[params['nome']]
+      this.n=this.nomi[params['nome']].nome;
   })}
 
   }
