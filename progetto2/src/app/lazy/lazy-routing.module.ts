@@ -5,12 +5,17 @@ import { Routes,RouterModule } from "@angular/router"
 import { ChiSiamoComponent } from "./chi-siamo/chi-siamo.component"
 import { HomeComponent } from "./home/home.component"
 import { PrezziComponent } from "./prezzi/prezzi.component"
+import { RouterLazyComponent } from './router-lazy/router-lazy.component';
 
 const routes:Routes=[
     {
         path:'',
-        component:HomeComponent,
+        component:RouterLazyComponent,
         children:[
+            {
+                path:'home',
+                component:HomeComponent
+            },
             {
                 path:'chi-siamo',
                 component:ChiSiamoComponent
