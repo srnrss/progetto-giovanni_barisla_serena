@@ -37,7 +37,8 @@
         </div>
     </div>
 </div>
-</div>
-<div *ngIf>
+<div [innerHTML]="testo[qualevedo]" class="container"> 
 
+</div>
+<div *ngIf="test()>-1" class="text-center"><div class="d-inline-block bg-success rounded p-2 text-light">COMPRA ORA!</div></div>
 </div>
