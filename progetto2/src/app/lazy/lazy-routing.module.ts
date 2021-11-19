@@ -7,6 +7,7 @@ import { ChiSiamoComponent } from "./chi-siamo/chi-siamo.component"
 import { HomeComponent } from "./home/home.component"
 import { PrezziComponent } from "./prezzi/prezzi.component"
 import { RouterLazyComponent } from './router-lazy/router-lazy.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes:Routes=[
     {
@@ -28,6 +29,10 @@ const routes:Routes=[
             {
                 path:"user",
                 component: UserComponent
+            },
+            {
+                path:'checkout/:prodotto',
+                component:CheckoutComponent
             }
         ]
     },

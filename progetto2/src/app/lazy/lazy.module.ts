@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RouterLazyComponent } from './router-lazy/router-lazy.component';
 import { UserComponent } from './user/user.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 
@@ -18,7 +19,8 @@ import { UserComponent } from './user/user.component';
     PrezziComponent,
     LoginComponent,
     RouterLazyComponent,
-    UserComponent
+    UserComponent,
+    CheckoutComponent
   ],
   imports: [
     CommonModule,
