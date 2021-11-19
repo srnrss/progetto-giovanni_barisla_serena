@@ -5,6 +5,7 @@ import { ChiSiamoComponent } from './chi-siamo/chi-siamo.component';
 import { PrezziComponent } from './prezzi/prezzi.component';
 import { LazyRoutingModule } from './lazy-routing.module';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HomeComponent,
     ChiSiamoComponent,
-    PrezziComponent
+    PrezziComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
